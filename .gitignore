@@ -1,0 +1,53 @@
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.so
+
+# Folders
+_obj
+_test
+
+# Architecture specific extensions/prefixes
+*.[568vq]
+[568vq].out
+
+# Testing
+*.test
+
+# Binary files
+*.exe
+*.out
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+vendor/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Compiled Go files
+*.8
+*.6
+
+# Compiled Go files
+*.test
+*.prof
+
+# Compiled Object files
+*.out
+
+# Go Meta Linter
+gometalinter-report.json
+
+# VS Code Go extension
+.vscode-go/
+
+# GoLand
+.idea/
+
+# Data Directory
+_data/
+*.db
+*.pb.go
