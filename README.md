@@ -23,6 +23,10 @@ cd grpc_thumbnail_server
 ```
 go mod download
 ```
+Сгенерируйте файлы .pb.go из файла .proto при помощи команды:
+```
+protoc --proto_path=./proto --go_out=. --go-grpc_out=. ./proto/thumbnail_service.proto
+```
 _Примечание: так же убедитесь что у вас установлен компилятор C (gcc) для работы с SQLite_
 
 Запустите приложение:
